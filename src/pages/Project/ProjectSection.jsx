@@ -3,21 +3,14 @@ import React from "react";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const projects = [
-    {
-        title: "IGELP - E-learning Platform",
-        description:
-            "A full-stack MERN-based e-learning web app with Spring Boot backend for user and course management.",
-        techStack: ["React", "Node.js", "Express.js", "MongoDB", "Spring Boot", "MySQL"],
-        github: "https://github.com/Yasir-dev-Ali/IGELP-FYP",
-        live: "https://igelp.vercel.app",
-    },
+  
     {
         title: "Social Media Platform",
         description:
             "A MERN-based real-time social app with likes, comments, profiles, and authentication.",
         techStack: ["React", "Node.js", "Express", "MongoDB", "JWT", "Tailwind CSS"],
-        github: "https://github.com/Yasir-dev-Ali/MERN-Social-Media-App",
-        live: "https://socialapp.vercel.app",
+        github: "https://github.com/Yasir-dev-Ali/Social-Media-App",
+        live: "https://github.com/Yasir-dev-Ali/Social-Media-App",
     },
     {
         title: "React Redux web app",
@@ -43,7 +36,21 @@ const projects = [
         github: "https://github.com/Yasir-dev-Ali/Portfolio",
         live: "https://yasir-portfolio.vercel.app/",
     },
-    
+    {
+        title: "Recipe-Sharing-API",
+        description:
+            "A RESTful API built with Node.js and Express, providing CRUD operations and JWT authentication.",
+        techStack: ["Node.js", "Express", "MongoDB", "JWT"],
+        github: "https://github.com/Yasir-dev-Ali/Recipe-Sharing-API",
+        live: "https://github.com/Yasir-dev-Ali/Recipe-Sharing-API",
+    },
+    {
+        title:"Pok-monNextjs",
+        description:"A Next.js application for browsing and searching Pokémon data.",
+        techStack: ["Next.js", "Tailwind CSS", "Pokémon API"],
+        github: "https://github.com/Yasir-dev-Ali/Pok-monNextjs",
+        live: "https://pok-monnextjs.vercel.app/",
+    },
 
 ];
 
